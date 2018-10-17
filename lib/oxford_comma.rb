@@ -4,3 +4,4 @@ if array.length == 1
 else
   answer = "#{array[0, array.length].join(', ')} and #{array.last}"
 end
+end
