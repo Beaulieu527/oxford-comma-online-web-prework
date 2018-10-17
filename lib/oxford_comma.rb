@@ -7,8 +7,8 @@ def oxford_comma(array)
 
   elsif array.length >= 3
     last_item = "and, #{array.last}"
-    
-    
+
+
     return array.length.join(", ") << last_item
   end
 end
