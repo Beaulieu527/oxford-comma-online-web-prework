@@ -1,3 +1,4 @@
 def oxford_comma(array)
- puts array[1...-1].join(", ")
+  answer = array[0...-1].join(", ")
+ puts answer
 end
