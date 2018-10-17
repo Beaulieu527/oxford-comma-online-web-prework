@@ -6,9 +6,9 @@ def oxford_comma(array)
       return array.join(" and ")
 
   elsif array.length >= 3
-    last_item = "and #{array.last}"
-
-
-    return array.length.join(", ") << last_item
+    last_item = "and, #{array.last}"
+    array.join(", ")
+    array.length << last_item
+    return array
   end
 end
